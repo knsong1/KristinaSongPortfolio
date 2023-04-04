@@ -276,6 +276,7 @@ h6,
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  padding-top: 10px;
   /* required */
 }
 
@@ -283,6 +284,7 @@ h6,
   margin-bottom: 10px;
   position: relative;
   padding-left: 30px;
+ 
 }
 
 .list-line li:before {
