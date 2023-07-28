@@ -260,6 +260,11 @@ h6,
   background: #000;
 }
 
+
+.red:hover {
+  color: #af2424;
+}
+
 .testimonials-slider .swiper-pagination {
   margin-top: -60px;
   position: relative;
