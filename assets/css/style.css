@@ -477,8 +477,7 @@ border-width: 5px;
 }
 
 .imgPortfolio {
-  height: 100%;
-  width: 90%; 
+  width: 70%; 
 
   border-radius: 5px;
   left: 0;
@@ -598,8 +597,7 @@ border-width: 5px;
 @media (max-width: 900px) {
 
   .profile-frame{
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0 10px;
   }
 
   .profile-img {
