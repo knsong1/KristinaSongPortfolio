@@ -1,255 +1,428 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Kristina Song - Portfolio</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <title>Kristina Song - Portfolio</title>
 
-  <!-- Favicons -->
-  <link href="/assets/img/IMG_1021.jpg" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
+    <!-- Icons -->
+    <link href="/assets/img/look.jpg" rel="icon">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyPortfolio
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- ======= Navbar ======= -->
-  <div class="collapse navbar-collapse custom-navmenu" id="main-navbar">
-    <div class="container py-2 py-md-5">
-      <div class="row align-items-start">
-        <div class="col-md-2">
-          <ul class="custom-menu">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-md-6 d-none d-md-block  mr-auto">
-          <div class="github d-flex">
-            <span class="bi bi-github text-white mt-2 mr-3"></span>
-            <div>
-              <p><em> <br> <a href="https://github.com/knsong1" target="/blank">"Take a look at my code for all my
-                    projects!"</a></em></p>
+
+
+
+    <!-- ======= Background Shapes ======= -->
+    <div id="wrapper ">
+
+
+
+        <!-- ======= Navbar ======= -->
+        <nav class="navbar">
+
+            <div class="tabs">
+                <a class="overlay-container" href="/index.html">
+                    <img class="imagefit" src="/assets/img/about.png" alt="where did I go?">
+                    <div class="overlay">
+                        <div class="text">Home</div>
+                    </div>
+                </a>
+                <a class="overlay-container" href="#Skills">
+                    <img class="imagefit" src="/assets/img/Subject.png" alt="where did I go?">
+                    <div class="overlay">
+                        <div class="text">Skills</div>
+                    </div>
+                </a>
+                <a class="overlay-container" href="#Projects">
+                    <img class="imagefit" src="/assets/img/pencil Background Removed.png" alt="where did I go?">
+                    <div class="overlay">
+                        <div class="text">Projects</div>
+                    </div>
+                </a>
+
+                <a class="overlay-container" href="#Contact">
+                    <img class="imagefit" src="/assets/img/phone2.png" alt="where did I go?">
+                    <div class="overlay">
+                        <div class="text">Contact</div>
+                    </div>
+                </a>
+
+
             </div>
-          </div>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <h3>Contact</h3>
-          <p> <br> <a href="mailto: kristinasong4@gmail.com">kristinasong4@gmail.com</a></p>
-        </div>
-        <div class="col-md-4 d-none d-md-block">
-          <a href="digitalart.html" target="_blank">Digital Art</a>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-
-  <nav class="navbar navbar-light custom-navbar">
-    <div class="container">
-      <div class="profile-container">
-        <span class="profile-text">About Me</span>
-        <a style=" border-radius: 100%;" href="/about.html">
-          <img style="border-radius: 30%; height:100px; width:100px;" src="/assets/img/IMG_1021.jpg" alt="">
-        </a>
-      </div>
-
-      <a href="#" class="burger" data-bs-toggle="collapse" style="right: 10px;" data-bs-target="#main-navbar">
-        <span> </span>
-      </a>
-
-    </div>
-
-  </nav>
-
-  <main id="main">
-
-    <!-- ======= Works Section ======= -->
-    <section class="section site-portfolio">
-      <div class="container">
-        <div class="row mb-5 align-items-center">
-          <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up">
-
-            <h2>Hey, I'm Kristina Song</h2>
-            <p class="mb-0">Junior Full Stack Developer</p>
-
-          </div>
-          <div class="col-md-12 col-lg-6 text-start text-lg-end" data-aos="fade-up" data-aos-delay="100">
-            <div id="filters" class="filters">
-              <a href="#" data-filter="*" class="active">All</a>
-              <a href="#" data-filter=".react">React</a>
-              <a href="#" data-filter=".HTML">HTML</a>
-            </div>
-          </div>
-        </div>
-        <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
-          <div class="item HTML col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="work-single.html" target="blank" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3>Anyone Can Cook!</h3>
-                <span>JavaScript, CSS, HTML</span>
-              </div>
-              <img class="img-fluid" src="assets/img/chefnew.png">
-            </a>
-          </div>
 
 
 
-          <div class="item react col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="/workCozzi.html" target="_blank" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3> Cozzi's Handmade Treats </h3>
-                <span>JavaScript, React, CSS, Node.js, Express.js </span>
-              </div>
-              <img class="img-fluid" src="/assets/img/cozziorder.png">
-            </a>
-          </div>
-          <div class="item HTML col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="/workAIC.html" target="_blank" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3> Art Institute of Chicago </h3>
-                <span>JavaScript, HTML, CSS </span>
-              </div>
-              <img class="img-fluid" src="/assets/img/AICtigert.png">
-            </a>
-          </div>
 
-          <div class="item react col-sm-6 col-md-4 col-lg-4 mb-4">
-            <a href="/work-single copy.html" target="_blank" class="item-wrap fancybox">
-              <div class="work-info">
-                <h3> Barter House</h3>
-                <span>JavaScript, Node.js, Express.js, AWS, Firebase, React</span>
-              </div>
-              <img class="img-fluid" src="/assets/img/BarterHouseProfile.png">
-            </a>
-          </div>
-        </div>
-      </div>
-    </section><!-- End  Works Section -->
+        </nav>
+
+        <img src="/assets/img/KristinaSong.png" class="fade-in  center imgName " alt="where did I go?">
+
+        <section id="Profile">
+
+            <div class="profile-frame fade-in  spacer bg border">
+
+                <div>
+
+                    <div class=" row-container ">
+                        <div class="center">
+                            <p> <img src="/assets/img/20220806_150135_Original.jpg" class="imgPortfolio "
+                                    alt="where did I go?">
 
 
-    <!-- ======= Testimonials Section ======= -->
-    <section class="section pt-0">
-      <div class="container">
+                        </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="200">
-          <div class="swiper-wrapper">
+                        <div class=" profile-list  ">
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="assets/img/brianreference.png" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>I am delighted to recommend Kristina for any full-stack engineering role. During her time in our
-                      bootcamp,
-                      Kristina consistently demonstrated her exceptional coding skills and ability to work
-                      collaboratively with her
-                      peers. Her natural curiosity and eagerness to learn new technologies make her an excellent problem
-                      solver. Furthermore, her excellent communication skills and attention to detail make her a
-                      valuable asset to any team.</p>
-                  </blockquote>
-                  <a href="https://www.linkedin.com/in/brian-abdo-61490788/" target="_blank">
-                    <p>&mdash; Brian Abdo</p>
-                  </a>
+
+
+                            <ul class=" center ">
+
+                                <li>
+
+                                    <h2 class="profile-header">Junior Software Engineer</h2>
+                                    <h1> Kristina Song </h1>
+                                    <p> I believe there are few roles that have proven as formidable as that of a
+                                        teacher. It's a path
+                                        requiring unwavering commitment, boundless dedication, and a ceaseless quest
+                                        for knowledge.
+                                        These qualities, I find, bridge the worlds of educators and developers. Just
+                                        as teaching
+                                        requires empathy and a holistic understanding of students, developing
+                                        solutions entails
+                                        delving into problems at their roots. Drawing from my teaching background, I
+                                        embrace
+                                        challenges with an adaptive, empathetic, and collaborative spirit. This
+                                        fusion of skills
+                                        makes me a valuable contributor, both in code and creative pursuits.
+
+
+
+                                    </p>
+
+                                    <div class="social center">
+                                        <a href="https://github.com/knsong1" target="_blank">
+                                            <span class="bi bi-github"></span>
+                                        </a>
+                                        <a href="https://www.linkedin.com/in/kristina-song/" target="_blank">
+                                            <span class="bi bi-linkedin"></span>
+                                        </a>
+                                    </div>
+                                    </p><a href="/assets/portfolio/ResumeKristinaSong2023.pdf" class="readmore center"
+                                        title="">Download my
+                                        Resume</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+
 
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
+
+            </div>
+
+        </section>
+
+        <section id="Skills"></section>
+
+        <div class=" container skills topmargin spacer slide-animation">
+
+            <div class=" center ">
+                <h1 class="center ">Skills</h1>
+            </div>
+            <div class="grid-rows ">
+
+                <div class="projects-cards slide-animation left">
+
+                    <div><img class="imagefit imgtool" src="/assets/img/frontend.png" alt="where did I go?"></div>
+                    <h4 class="title"><a href="">Front End Development</a></h4>
+                    <ul class="no-style">
+                        <li>HTML</li>
+                        <li>Tailwing</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>WordPress</li>
+                        <li>Adobe</li>
+                    </ul>
+                </div>
 
 
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial">
-                  <img src="assets/img/Screenshot 2023-03-26 at 9.31.37 PM.png" alt="Image" class="img-fluid">
-                  <blockquote>
-                    <p>I have overseen Kristina's work on several projects, and she is a very hard-working individual
-                      who can tackle any web development problem with ease. She is driven and always continues to push
-                      herself with learning new technologies. Her ambition and drive to learn new skills make her an
-                      asset to any team.
-                      I highly recommend Kristina to anyone looking to hire a web development professional.</p>
-                  </blockquote>
-                  <a href="https://www.linkedin.com/in/dezarea-bryan/" target="_blank">
-                    <p>&mdash; Dezarea Bryan</p>
-                  </a>
+                <div class="projects-cards slide-animation left">
+                    <div><img class="imagefit" src="/assets/img/backend.png" alt="where did I go?"></div>
+                    <h4 class="title"><a href="">Backend Development</a></h4>
+                    <ul class="no-style">
+                        <li>Node.js</li>
+                        <li>Firestore</li>
+                        <li>EC2</li>
+                        <li>PostgreSQL</li>
+                    </ul>
 
                 </div>
-              </div>
-            </div><!-- End testimonial item -->
+                <div class="projects-cards slide-animation top">
+                    <div><img class="imagefit imgtool" src="/assets/img/tools.png" alt="where did I go?"></div>
+                    <h4 class="title"><a href="">Developer Tools</a></h4>
+                    <ul class="no-style">
+                        <li> Github</li>
+                        <li>VS Code</li>
+                        <li>Postman</li>
+
+                    </ul>
+
+                </div>
+                <div class="projects-cards slide-animation right">
+                    <div><img class="imagefit imghand" src="/assets/img/hand.png" alt="where did I go?"></div>
+                    <h4 class="title"><a href="">Communication</a></h4>
+                    <ul class="no-style">
+                        <li> Engaging diverse audiences
+                        </li>
+                        <li>Agile Methodologies</li>
+                        <li>Fostering open and collaborative dialogue</li>
+                        <li>Tailoring communication styles</li>
+                        <li>Active listening and effective articulation</li>
 
 
-          </div>
-          <div class="swiper-pagination"></div>
+                    </ul>
+
+
+                </div>
+
+
+                <div class="projects-cards slide-animation right">
+
+                    <div class="icon"><img class="imagefit" src="/assets/img/deploymen.png" alt="where did I go?"></div>
+                    <h4 class="title"><a href="">Deployment</a></h4>
+                    <ul class="no-style">
+                        <li>Render</li>
+                        <li>Netlify</li>
+                        <li>EC2</li>
+
+                    </ul>
+
+
+                </div>
+
+
+            </div>
+            <section id="Projects"> </section>
+
         </div>
 
-      </div>
-    </section><!-- End Testimonials Section -->
 
-  </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-          <p class="mb-1">&copy; Copyright MyPortfolio. All Rights Reserved</p>
-          <div class="credits">
-            <!--
-            All the links in the footer should remain intact.
-            You can delete the links only if you purchased the pro version.
-            Licensing information: https://bootstrapmade.com/license/
-            Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=MyPortfolio
-          -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-          </div>
+
+        <!-- Projects -->
+        <div class="projects spacer margin-top">
+
+            <h1 class="center projects-title">Projects</h1>
+
+
+            <div id="portfolio-grid " class="projects-grid center spacer">
+
+                <div class="slide-animation left projects ">
+                    <h3>Anyone Can Cook!</h3>
+                    <div class="overlay-container">
+
+                        <a href="https://whatsfordinner-fch9.onrender.com/?" target="_blank">
+                            <img src="assets/img/chefnew.png">
+
+                            <div class="overlay">
+                                <div class="text">
+
+                                    <p>Gusteau the chef, will recommend you recipes you search accompanied with youtube
+                                        videos
+                                        and complementary creative cocktails you can select, making dinner easier and
+                                        more fun!
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-animation left center projects">
+                    <div class="overlay-container">
+                        <h3> Art Institute of Chicago</h3>
+                        <a href="https://kristinasongaicproject.onrender.com" target="_blank">
+
+                            <img src="/assets/img/AICtigert.png">
+
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Discover the Art Institute of Chicago's treasures through its API. Immerse in
+                                        art's exquisite details and nuances. Witness timeless masterpieces with every
+                                        brushstroke.</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="slide-animation right center projects">
+                    <div class="overlay-container">
+                        <h3> Barter House</h3>
+                        <a href="http://ec2-3-138-123-221.us-east-2.compute.amazonaws.com/" target="_blank">
+                            <img src="/assets/img/BarterHouseProfile.png">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Barter House: Trade items and services seamlessly. User-friendly interface,
+                                        diverse
+                                        categories. Save, connect, and trade on Barter House.
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="slide-animation right center projects">
+                    <div class="overlay-container">
+                        <h3> Cozzi's Handmade Treats: <p class="green">Site Coming Soon </p>
+                        </h3>
+                        <a href="">
+                            <img src="/assets/img/cozzimedia.png" alt="where did I go?">
+                            <div class="overlay">
+                                <div class="text">
+                                    <p>Cozzi's Handmade Treats started in the midst of the Pandemic and has grown since
+                                        then,
+                                        with
+                                        a
+                                        variety of keto and gluten free friendly treats. Check out Cozzi's site, and see
+                                        what
+                                        you
+                                        would like to order!</p>
+
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="col-sm-6 social text-md-end">
-          <a href="https://github.com/knsong1" target="_blank"><span class="bi bi-github"></span></a>
-          <a href="https://www.linkedin.com/in/kristina-song/" target="_blank"><span class="bi bi-linkedin"></span></a>
 
-        </div>
-      </div>
+
+        <!-- End  Projects Section -->
+
+
+        <section id="Contact" class="slide-animation left lgspacer topmargin">
+            <div class="contact border">
+
+                <div class="row mb-5 align-items-end ">
+                    <div class="center ">
+                        <h2>Contact</h2>
+
+                    </div>
+
+                </div>
+
+                <div class="row-container">
+                    <div>
+
+                        <form id="contactMe" action="https://formsubmit.co/16f45e579036bd19014d393640a56d10"
+                            method="POST">
+
+                            <div class="form-wrap">
+                                <div class="input-group">
+                                    <label for="name">Name:</label>
+                                    <input placeholder="Your Name" type="text" name="name" class="form-input" id="name"
+                                        required>
+                                </div>
+                                <div class="input-group">
+                                    <label for="name">Email:</label>
+                                    <input placeholder="Your Email" type="email" class="form-input" name="email"
+                                        id="email" required>
+                                </div>
+
+
+
+                                <div class="input-group">
+                                    <label for="name">Message:</label>
+                                    <textarea class="form-input" placeholder="Type message here..." name="message"
+                                        cols="30" rows="1" required></textarea>
+                                </div>
+
+
+
+                                <div>
+                                    <input type="submit" class="readmore d-block w-100" value="Send Message">
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+
+                    <div class="contact-info-wrap center ">
+                        <ul>
+                            <li class="contact-li">
+                                <strong class="d-block mb-1">Location</strong>
+                                <span> Chicago, Illinois, USA</span>
+                            </li>
+                            <li class="contact-li">
+                                <strong class="d-block mb-1">Phone Number</strong>
+                                <span>347-649-4776</span>
+                            </li>
+                            <li class="contact-li">
+                                <strong class="d-block mb-1">Email</strong>
+                                <span>kristinasong4@gmail.com</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section id="Testimonials">
+
+
+        </section>
+
+        <!-- ======= Footer ======= -->
+        <footer class="footer" role="contentinfo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <p class="mb-1">&copy; <span id="copyright-year"></span> Kristina Song </p>
+
+                    </div>
+                    <div class="social center">
+                        <a href="https://github.com/knsong1" target="_blank"><span class="bi bi-github"></span></a>
+                        <a href="https://www.linkedin.com/in/kristina-song/" target="_blank"><span
+                                class="bi bi-linkedin"></span></a>
+                    </div>
+
+                    <!-- ... -->
+                </div>
+            </div>
+        </footer>
+
+
     </div>
-  </footer>
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        // Get the current year
+        const currentYear = new Date().getFullYear();
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
+        // Update the copyright year in the footer
+        document.getElementById('copyright-year').textContent = currentYear;
+    </script>
 </body>
 
 </html>
