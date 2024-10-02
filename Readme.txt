@@ -1,4 +1,4 @@
-Kristina Song's Full Stack Developer portfolio
+Kristina Song's Software Engineer portfolio
 
 You will be able to see sites that are live on my site, be directed to my code for these projects, and see digital art created by me
 
